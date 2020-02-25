@@ -16,3 +16,4 @@ def take_a_number(katz_deli, name)
   katz_deli.map.with_index do |customer, index|
   puts "Welcome, #{name}. You are number #{index+1} in line."
 end
+end
