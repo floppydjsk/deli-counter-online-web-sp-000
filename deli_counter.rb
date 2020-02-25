@@ -6,7 +6,7 @@ def line(katz_deli)
   else
     current = "The line is currently: "
     katz_deli.map.with_index do |customer, index|
-      current << "#{index}. #{customer}"
+      current << "#{index+1}. #{customer} "
     end
     puts current
   end
