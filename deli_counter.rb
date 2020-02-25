@@ -2,7 +2,7 @@
 katz_deli = []
 def line(katz_deli)
   if katz_deli.empty?
-    return "The line is currently empty"
+    return "The line is currently empty."
   else
     current = "The line is currently: "
     katz_deli.map.with_index do |customer, index|
