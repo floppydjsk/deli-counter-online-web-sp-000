@@ -8,7 +8,6 @@ def line(katz_deli)
     katz_deli.map.with_index do |customer, index|
       current << "#{index}. #{customer}"
     end
+    puts current
   end
 end
-
-    
